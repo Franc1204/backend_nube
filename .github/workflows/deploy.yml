@@ -38,5 +38,5 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: flask-web-app # Cambia esto por el nombre de tu Web App en Azure
+          app-name: flask-web-app-cloud 
           images: flaskacrcloud.azurecr.io/flask-backend:latest
